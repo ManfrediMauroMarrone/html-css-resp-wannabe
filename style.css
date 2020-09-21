@@ -77,23 +77,15 @@ img {
         margin: 0px;
     }
 
-    .row{
-        font-size: 15px;
-    }
-
     .container{
         width: 750px;
     }
 
     .container > .row{
+        font-size: 15px;
         width: 100%;
     }
 
-
-
-    #why .row{
-        width: 100%;
-    }
 }
 
 
@@ -120,6 +112,7 @@ img {
 
         .row{
             width: 100%;
+            font-size: 15px;
         }
 
         #lezioni .row>.left,
