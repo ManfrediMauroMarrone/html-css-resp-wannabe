@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -77,8 +83,8 @@ img {
         margin: 0px;
     }
 
-    .container{
-        width: 750px;
+    .row{
+        width: 100%;
     }
 
     .container > .row{
@@ -91,10 +97,6 @@ img {
 
 @media screen and (max-width: 420px){
 
-        body{
-            margin:0px;
-        }
-
         h1{
             padding: 10px 0;
             font-size: 20px;
@@ -105,9 +107,10 @@ img {
             font-size: 15px;
         }
 
-        .container{
-            width: 400px;
-
+        img{
+            max-width: 100%;
+            height: auto;
+            max-height: 200px;
         }
 
         .row{
